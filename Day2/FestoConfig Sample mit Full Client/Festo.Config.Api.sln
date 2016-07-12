@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festo.Config.Api", "Festo.Config.Api\Festo.Config.Api.csproj", "{261810E7-5312-4B86-98CF-8BEA3BC074BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festo.Config.Api.Impl", "Festo.Config.Api.Impl\Festo.Config.Api.Impl.csproj", "{40B05809-09D9-4F1E-9733-76E4F5A1B5E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festo.Config.Api.Model", "Festo.Config.Api.Model\Festo.Config.Api.Model.csproj", "{A4FA3B4E-FFC7-4B85-9152-D221AFC50124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festo.Config.Tests", "Festo.Config.Tests\Festo.Config.Tests.csproj", "{723CBADD-B14F-45C0-B38A-241039868BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Festo.Config.FullClient", "Festo.Config.FullClient\Festo.Config.FullClient.csproj", "{49B2C35E-AD10-432A-938D-8599663E9837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{261810E7-5312-4B86-98CF-8BEA3BC074BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261810E7-5312-4B86-98CF-8BEA3BC074BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261810E7-5312-4B86-98CF-8BEA3BC074BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261810E7-5312-4B86-98CF-8BEA3BC074BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B05809-09D9-4F1E-9733-76E4F5A1B5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B05809-09D9-4F1E-9733-76E4F5A1B5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B05809-09D9-4F1E-9733-76E4F5A1B5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B05809-09D9-4F1E-9733-76E4F5A1B5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FA3B4E-FFC7-4B85-9152-D221AFC50124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FA3B4E-FFC7-4B85-9152-D221AFC50124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FA3B4E-FFC7-4B85-9152-D221AFC50124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FA3B4E-FFC7-4B85-9152-D221AFC50124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723CBADD-B14F-45C0-B38A-241039868BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723CBADD-B14F-45C0-B38A-241039868BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723CBADD-B14F-45C0-B38A-241039868BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723CBADD-B14F-45C0-B38A-241039868BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B2C35E-AD10-432A-938D-8599663E9837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B2C35E-AD10-432A-938D-8599663E9837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B2C35E-AD10-432A-938D-8599663E9837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B2C35E-AD10-432A-938D-8599663E9837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
